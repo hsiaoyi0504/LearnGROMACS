@@ -1,0 +1,23 @@
+# This file was created Tue Dec 29 04:20:28 2015
+# Created by:
+# GROMACS:      gmx bar, VERSION 5.0.6
+# Executable:   /usr/local/bin/../Cellar/gromacs/5.0.6/bin/gmx
+# Library dir:  /usr/local/bin/../Cellar/gromacs/5.0.6/share/gromacs/top
+# Command line:
+#   gmx bar -f lambda_0.2/dhdl.xvg lambda_0.4/dhdl.xvg lambda_0.5/dhdl.xvg lambda_0.6/dhdl.xvg lambda_0.8/dhdl.xvg lambda_0.9/dhdl.xvg lambda_0/dhdl.xvg lambda_1/dhdl.xvg -o -oi -oh
+# gmx is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "Free energy integral"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xy
+     0  0.00
+     1 -1.63
+     2 -2.56
+     3 -2.30
+     4 -1.05
+     5  2.06
+     6  3.01
+     7  3.83

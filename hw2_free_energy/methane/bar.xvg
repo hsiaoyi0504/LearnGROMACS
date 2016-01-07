@@ -1,0 +1,22 @@
+# This file was created Tue Dec 29 04:20:28 2015
+# Created by:
+# GROMACS:      gmx bar, VERSION 5.0.6
+# Executable:   /usr/local/bin/../Cellar/gromacs/5.0.6/bin/gmx
+# Library dir:  /usr/local/bin/../Cellar/gromacs/5.0.6/share/gromacs/top
+# Command line:
+#   gmx bar -f lambda_0.2/dhdl.xvg lambda_0.4/dhdl.xvg lambda_0.5/dhdl.xvg lambda_0.6/dhdl.xvg lambda_0.8/dhdl.xvg lambda_0.9/dhdl.xvg lambda_0/dhdl.xvg lambda_1/dhdl.xvg -o -oi -oh
+# gmx is part of G R O M A C S:
+#
+# S  C  A  M  O  R  G
+#
+@    title "Free energy differences"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xydy
+ 0.500 -1.63  0.00
+ 1.500 -0.93  0.00
+ 2.500  0.26  0.01
+ 3.500  1.24  0.03
+ 4.500  3.11  0.21
+ 5.500  0.95  0.03
+ 6.500  0.82  0.03
