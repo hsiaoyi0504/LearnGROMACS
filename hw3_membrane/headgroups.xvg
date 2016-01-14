@@ -1,0 +1,72 @@
+# This file was created Sun Jan  3 07:23:56 2016
+# Created by:
+# GROMACS:      gmx density, VERSION 5.0.6
+# Executable:   /usr/local/bin/../Cellar/gromacs/5.0.6/bin/gmx
+# Library dir:  /usr/local/bin/../Cellar/gromacs/5.0.6/share/gromacs/top
+# Command line:
+#   gmx density -s md.tpr -f md.xtc -n density_groups.ndx -o headgroups.xvg -d Z
+# gmx is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Other_&_C1_C2_C3_N4_C5_C6_O7_P8_O9_O10_O11"
+    0.254032                0
+    0.762095                0
+     1.27016                0
+     1.77822                0
+     2.28628                0
+     2.79435                0
+     3.30241                0
+     3.81047                0
+     4.31854                0
+      4.8266                0
+     5.33466                0
+     5.84273                0
+     6.35079                0
+     6.85885                0
+     7.36691                0
+     7.87498                0
+     8.38304                0
+      8.8911                0
+     9.39917                0
+     9.90723         0.892821
+     10.4153          5.57008
+     10.9234          13.1217
+     11.4314          8.92423
+     11.9395         0.776501
+     12.4475                0
+     12.9556                0
+     13.4637         0.529868
+     13.9717           7.2428
+     14.4798          14.8021
+     14.9879          6.03103
+     15.4959         0.679526
+      16.004                0
+     16.5121                0
+     17.0201                0
+     17.5282                0
+     18.0362                0
+     18.5443                0
+     19.0524                0
+     19.5604                0
+     20.0685                0
+     20.5766                0
+     21.0846                0
+     21.5927                0
+     22.1007                0
+     22.6088                0
+     23.1169                0
+     23.6249                0
+      24.133                0
+     24.6411                0
+     25.1491                0

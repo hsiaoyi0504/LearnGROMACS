@@ -1,0 +1,4 @@
+top_p8 = name P8 and (z > 3.2);
+bot_p8 = name P8 and (z < 3.2);
+top_p8;
+bot_p8; 

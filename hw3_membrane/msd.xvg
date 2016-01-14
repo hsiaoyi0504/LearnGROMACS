@@ -1,0 +1,24 @@
+# This file was created Sun Jan  3 07:02:00 2016
+# Created by:
+# GROMACS:      gmx msd, VERSION 5.0.6
+# Executable:   /usr/local/bin/../Cellar/gromacs/5.0.6/bin/gmx
+# Library dir:  /usr/local/bin/../Cellar/gromacs/5.0.6/share/gromacs/top
+# Command line:
+#   gmx msd -s md.tpr -f md.xtc -n p8.ndx -lateral z
+# gmx is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "Mean Square Displacement"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "MSD (nm\S2\N)"
+@TYPE xy
+# MSD gathered over 10 ps with 2 restarts
+# Diffusion constants fitted from time 2 to 10 ps
+# D[        P8] = 1.7655 (+/- 0.5550) (1e-5 cm^2/s)
+         0           0
+         2   0.0127623
+         4   0.0249039
+         6   0.0349463
+         8   0.0515278
+        10   0.0700684
